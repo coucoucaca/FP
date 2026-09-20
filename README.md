@@ -1,18 +1,23 @@
 # 1: Inference folder
-## Main inference file listening vis microphone and runs classifier and get results:
-inferece.ino
+## inferece.ino
+- Listen to live audio via Arduino Nano 33 BLE Sense Rev2 built-in mic
+- Extract audio features using SDK
+- Run classifier from SDK
 
-## IMU sensonsor
-imu_sensor.h
 
-## GridEye
-ir_camera.h
+## imu_sensor.h
+
+- Detect is the device is still using built-in IMU (BMU270_BMM150) 
+
+
+## ir_camera.h
+
+- Detect target speaker presence with Adafruit GridEYE(AMG 8833 IR Thermal Camera Breakout)
+
+  
+## Actuator
+
+- Turn on the built in RGB LED based on the classification results from the inference 
 
 # 2: Zip file
 Edge impulse SDK files including quantized model 
-
-
-
-
-
-
