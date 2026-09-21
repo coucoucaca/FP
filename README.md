@@ -1,4 +1,6 @@
 # 1: Inference folder
+Arduino side of the project
+
 ## inferece.ino
 - Listen to live audio via Arduino Nano 33 BLE Sense Rev2 built-in mic
 - Extract audio features using SDK
@@ -20,7 +22,8 @@
 - Turn on the built in RGB LED based on the classification results from the inference 
 
 # 2: Zip file
-- Edge impulse SDK files including quantized model
+Edge impulse SDK
+- SDK files including quantized model
 - Include the zip in the Arduino IDE
 - Start from inferencing.h in src holder 
 
