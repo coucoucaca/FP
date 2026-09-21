@@ -20,9 +20,13 @@
 - Turn on the built in RGB LED based on the classification results from the inference 
 
 # 2: Zip file
-Edge impulse SDK files including quantized model 
-Include the zip in the Arduino IDE
+- Edge impulse SDK files including quantized model
+- Include the zip in the Arduino IDE
+- Start from inferencing.h in src holder 
 
-# 3: Edge Impluse Project(Machine Learning porrtion of the project)
-Data set, DSP and and models
+# 3: Edge Impluse Project
+Machine Learning porrtion of the project
+- Data set
+- DSP and
+- ML model
 https://studio.edgeimpulse.com/public/1056404/live
