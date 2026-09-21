@@ -21,3 +21,8 @@
 
 # 2: Zip file
 Edge impulse SDK files including quantized model 
+Include the zip in the Arduino IDE
+
+# 3: Edge Impluse Project(Machine Learning porrtion of the project)
+Data set, DSP and and models
+https://studio.edgeimpulse.com/public/1056404/live
