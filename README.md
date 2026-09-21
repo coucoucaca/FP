@@ -1,33 +1,33 @@
-# 1: Inference folder
+## 1: Inference folder
 Arduino side of the project
 
-## inferece.ino
+### inferece.ino
 - Listen to live audio via Arduino Nano 33 BLE Sense Rev2 built-in mic
 - Extract audio features using SDK
 - Run classifier from SDK
 
 
-## imu_sensor.h
+### imu_sensor.h
 
 - Detect is the device is still using built-in IMU (BMU270_BMM150) 
 
 
-## ir_camera.h
+### ir_camera.h
 
 - Detect target speaker presence with Adafruit GridEYE(AMG 8833 IR Thermal Camera Breakout)
 
   
-## Actuator
+### Actuator
 
 - Turn on the built in RGB LED based on the classification results from the inference 
 
-# 2: Zip file
+## 2: Zip file
 Edge impulse SDK
 - SDK files including quantized model
 - Include the zip in the Arduino IDE
 - Start from inferencing.h in src holder 
 
-# 3: Edge Impluse Project
+## 3: Edge Impluse Project
 Machine Learning porrtion of the project
 - Data set
 - DSP and
