@@ -27,7 +27,7 @@ Edge impulse SDK
 - Arduino IDE :  Sketch -> Include Library -> Add .zip library 
 
 ## 3: Edge Impluse Project
-Machine Learning porrtion of the project
+Machine Learning portion of the project
 - Data set
 - DSP and
 - ML model
