@@ -24,8 +24,7 @@ Arduino side of the project
 ## 2: Zip file
 Edge impulse SDK
 - SDK files including quantized model
-- Include the zip in the Arduino IDE
-- Start from inferencing.h in src holder 
+- Arduino IDE :  Sketch -> Include Library -> Add .zip library 
 
 ## 3: Edge Impluse Project
 Machine Learning porrtion of the project
